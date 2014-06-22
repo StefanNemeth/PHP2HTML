@@ -1,14 +1,11 @@
-PHP2HTML
-========
+<?php
 
-Convert PHP Code to HTML Text
-
-## Why PHP2HTML?
-You don't need to learn a second template pseudo-language just to stitch your HTML fragments together. On top of that you're code is stressless more structured.
-
-## Example
-
-```php
+/**
+ * ----------------------------------------
+ * Example - PHP2HTML
+ * ----------------------------------------
+ * https://github.com/SteveWinfield/PHP2HTML
+**/
 include 'php2html.php';
 
 // Create error html object
@@ -35,11 +32,4 @@ $content =	HTML::body(['style'=>'background:#fff','onLoad'=>'alert(\'Welcome!\')
 
 // Print out content
 echo $content;
-```
-This example prints out:
-```html
-<body style="background:#fff" onLoad="alert('Welcome!')">
-	<input type="text">
-	<strong color="red">Oh.. Login details incorrect.</strong>
-</body>
-```
+
