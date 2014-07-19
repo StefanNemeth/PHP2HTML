@@ -4,7 +4,7 @@ PHP2HTML
 Convert PHP Code to HTML Text
 
 ## Why PHP2HTML?
-You don't need to learn a second template pseudo-language just to stitch your HTML fragments together. On top of that you're code is stressless more structured.
+You don't need to learn a second template pseudo-language just to stitch your HTML fragments together. On top of that your code is stressless more structured.
 
 ## Example
 
